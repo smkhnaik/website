@@ -8,34 +8,179 @@
  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <title>CARES - Goa</title>
-       <!-- Amit & Aditi style css -->
-       <link rel="stylesheet" href="Amit&Aditi.css">
-      <link rel="stylesheet" href="header-footer-css/latest.css">
+     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="latest.css">
+  <link rel="stylesheet" href="header-footer-css/latest.css">
+  <link rel="stylesheet" href="header-footer-css/style1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  <link rel="stylesheet" href= "aboutUs-T7-css/bootstrap.css">
+        <link rel="stylesheet" href= "aboutUs-T7-css/mdb.css">
+        <link rel="stylesheet" href= "aboutUs-T7-css/aboutus-T7.css">
+        <link rel="stylesheet" href= "header-footer-css/style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!---Contct us css by tanvi sawant-->
+
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    
+   
+    
+    <!--Font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style> 
+		
+		/* h2 tag */
+.contactus h2 {
+    text-align: left;
+    font-family:sans-serif;
+    font-size: 40px;
+    color: #0e1133;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* row with direct contact boxes */
+.contactus .contact-box{
+    float:left;
+    margin-bottom: 40px;
+    width: 100%;     
+}
+
+.contactus .card{
+    border: none;   
+}
+
+/* CSS for each column in contact row */
+.contactus .contact-col{
+    height: 150px;
+    margin: 10px;
+    padding-top: 20px;
+    
+}
+
+/* CSS for font awsome*/
+.contactus .fa{
+    font-size:28px !important;
+    color:#0e1133!important;
+    
+}
+
+.contactus .fa:hover{
+    font-size:38px !important;
+    color:white !important;
+
+}
+
+/* css for buttons */
+.contactus .btn{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contactus .btn:hover{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #0e1133!important;
+}
+
+/* clearing float left property*/
+.contactus .clear-float{
+    clear: both;
+    margin-bottom: 40px;
+}
+
+/* CSS for address text */
+.contactus .address-section{
+    
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* css for map section*/
+.contactus .map-section{
+    width: 100%;
+    height: 325px;
+    border:0;
+}
+
+/* CSS for address heading */
+.contactus .address-heading{
+    
+    font-size:30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0e1133;
+}
+
+
+
+/* blog */
+.contactus .card-blog {
+    margin:30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+}
+
+.contactus .card-blog:hover{
+    transform: scale(1.05);   
+}
+
+/* css for removing padding from row class */
+.contactus .row-div > * {
+    max-width: 100%;
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
+/* css to change link colors */
+.contactus a {
+  color: #0e1133;
+  background-color: transparent;
+  text-decoration: none;
+}
+	
+	</style>
+
+
    </head>
 
 
 
-   <body>
 
+
+   <body>
+<div class = "header">
       <div class= "container">
          <div class="row">
-            <div class="col">
-               <nav>
-                  <label class="logo"> <img src="header-footer-img/logo.png" width="250" height="100"/> </label>
+            <div class="col-3">
+              
+                  <img src="header-footer-img/logo.png" class="logoimg"/>
+                  </nav>
+                  </div>
+                  <div class="col-9">
+                    <nav>
                   <ul>
-                     <li><a class="active" href="#">Home</a></li>
+                     <li><a class="active" href="index.html">Home</a></li>
                      <li>
                         <a href="#">About Us
                         <i class="fas fa-caret-down"></i>
                         </a>
                         <ul>
-                           <li><a href="#">About Scheme</a></li>
+                           <li><a href="index_aboutUs_complete.html">About Scheme</a></li>
                            <li><a href="#">Know our Team</a></li>
                         </ul>
                      </li>
@@ -55,10 +200,10 @@
                         </ul>
                      </li>
                      <li><a href="#">Gallery</a></li>
-                     <li><a href="#">Tenders</a></li>
+                     <li><a href="blog.html">Blogs</a></li>
                   <li><a href="#">FAQ</a></li>
                   <li><a href="#">Help Desk</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
                   </ul>
                </nav>
             </div>
@@ -66,57 +211,71 @@
 
          </div>
          </div>
-      <!-- ******************* Amit & Aditi Code starts STARTS HERE *************************-->
-      <body>
-      <div class="container mt-5">
-          <!-- header Classes -->
-          <div class="header">
-              <p class="h1 text" >Coding is like Poetry. Precise & Concise..</p>
-              <p class="h2 text">It's not a real Bug so don't be scared.</p>
-              <p class="h3 text">Code is like humour.</p>
-          </div>
-          <!-- Display Classes -->
-          <div class="body"> <h1 class="display-1 ">Welcome to CARES GOA</h1>
-              <h1 class="display-2 ">Coding is Fun</h1>
-              <h1 class="display-2 ">Lets Code.</h1>
-              <h1 class="display-2 ">It is going to be so much of Fun</h1>
-          </div>
-          <!-- lead / text-muted -->
-          <div class="lead">
-              <p class="lead text">As leaders in education, our job is not to control those whom we serve, but to unleash their talent. ... </p>
-              <!-- bold / italic -->
-              <p class="lead text">I am an Innovator</p>
-              <p class="lead  text">I am a Coder.</p>
-              <hr>
-              <h1 class="display-3 text ">Welcome to the AI learning.</h1>
-              <p class="lead text">Coding tests a variety of abilities. It hones problem-solving and analysis skills, such as finding errors and thinking logically. Further, coding often helps people develop teamwork and interpersonal skills since software and application projects are often cross-disciplinary and collaborative. </p>
-          </div>
-      </div>
-      <!-- ******************* Amit & Aditi Code ENDS HERE *************************-->
-      <!-- Bootstrap JS files -->
-      <script src="bootstrap/js/mdb.min.js"></script>
-      </body>
-<!--- Start ur content here-->
 
-         pppppppjkhghfdgfdsefszx
+         </div>
 
-         pppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszxpppppppjkhghfdgfdsefszx
+<!--- contact us by tanvi sawant-->
 
 
+<div class="container-fluid contactus">
+        
+    <div class="row offset-1 ">
+        
+        <div class="col">
+            <h2> Contact Us</h2>            
+        </div>
+    
+    </div>
+    
+    <div class="row offset-1  contact-box">
+        <div class="col-3 card">
+            <a href="tel:+91-832-2413571" class="btn fa fa-phone contact-col fa-style"> <h3 class="card-title"> Call Us </h3> <h4 class="card-subtitle"> +91-832-2413571</h4></a>
+        </div>
+        
+        <div class="col-3 card">
+            <a href="fax:+91-832-2413572" class="btn btn-floating fa fa-fax contact-col fa-style"> <h3 class="card-title"> FAX </h3> <h4 class="card-subtitle"> +91-832-2413572</h4></a>
+    
+        </div>
+        
+         <div class="col-3 card">
+             <a href="mailto:cares-admin@goa.gov.in" class="btn fa fa-envelope contact-col fa-style"> <h3 class="card-title"> Email </h3> <h4 class="card-subtitle"> cares-admin@goa.gov.in</h4></a>
+        
+        </div>
+    
+    
+    
+    </div>
+    
+    
+    <div class="row offset-1 clear-float">
+        <div class="col-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d123015.12027955487!2d73.82887900000001!3d15.526198000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc11ddea9d07f%3A0xcbff8e3d74de6ca0!2sDirectorate%20of%20Technical%20Education!5e0!3m2!1sen!2sus!4v1677993716916!5m2!1sen!2sus" class=" map-section" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="col-3 address-section">
+            <section class="address-heading">  GOVERNMENT OF GOA</section><br>
+            <p class="address-section text-muted">
+                <strong>DIRECTORATE OF TECHNICAL EDUCATION,  </strong> GOA STATE DTE BUILDING, ALTO-PORVORIM, BARDEZ, GOA, PIN 403521.<br>
+                    <strong>Ph.</strong>strong>+91-832-2413571. <strong>Fax  </strong> +91-832-2413572<br>
+                 <strong>Email:  </strong>cares-admin@goa.gov.in<br>
+               <strong> Email: </strong> pdpmu-dte@goa.gov.in<br>
+                <strong>Email:  </strong>dir-dte.goa@nic.in<br>
+                [09:30 To 17:45 Hrs IST   <strong>(Monday–Friday)  </strong>]<br>                
+            </p>
+        
+        </div>
+    
+    
+    </div>
+    
+</div>
 
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
-         pppppppjkhghfdgfdsefszx
+
+
+
+
          
-<!--- End ur content here-->
+<!--- contact us by tanvi sawant-->
 
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -128,7 +287,7 @@
 <!--- START OF WEBSITE FOOTER ; APPENDED BY "SOMANATH AND NEETI".-->
 
 
-<footer>
+<footer class="footer">
 
 
 <div class="container p-5 my-5 bg-dark text-white">
@@ -207,6 +366,15 @@
 
 <!-- END OF WEBSITE FOOTER UPDATION BY "SOMANATH AND NEETI" -->
 
+
+
+
+<!--BOOTSTRAP JS FILES-->
+<script src="aboutus-T7-js/jquery.js"></script>
+<script src="aboutus-T7-js/popper.js"></script>
+<script src="aboutus-T7-js/jquery.js"></script>
+<script src="aboutus-T7-js/mdb.js"></script>
+<script src="aboutus-T7-js/AboutUs.js"></script>
 
 
 </body>

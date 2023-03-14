@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+   
+    
+    line-height: 1.5;
+    color: #333;
+   
+  }
+
+.hero {
+    background-color: #f5f5f5;
+    padding: 5rem 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+       
+   
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+      font-size: 1.2rem;
+      padding: 1rem;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .goto {
+ 
+    align-items: center;
+    text-align: center;
+    text-justify: distribute;
+    
+ 
+  }
+ 
+  .dropdown-item {
+  
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: #333;
+  cursor: pointer;
+  box-sizing: inherit;
+
+  }
+
+  .pdf{
+    position:center;
+
+  }
+
+  .pdf-wrapper {
+    position: center;
+    overflow: hidden;
+    padding-top: 55%;
+    background-color: #333;
+    
+  }
+  .pdf-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 60%;
+    height: 100%;
+    background-color:black;
+    
+
+  }
+
+  
+
+  .fullscreen {
+    margin: 40px auto;
+    max-width: 700px;
+
+  }
+  
+  .element {
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    background-color: skyblue;
+    box-sizing: border-box;
+  }
+  
+  .element p {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+  }
+  
+  .element:-ms-fullscreen p {
+    visibility: visible;
+  }
+  
+  .element:fullscreen {
+    background-color: #e4708a;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+  
+  .counter {
+    width:100%;
+    height:20vh;
+    
+     }
+
+  .counter .row{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-505,-50%);
+
+  }
+
+  .counter .col{
+    flex-basis: 22%;
+    text-align:center;
+    color:#555;
+  }
+
+  .counter-box{
+    width: 100%;
+    height:100%;
+    background: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -4px #66676c;
+  }
+
+  .counter-box .fa {
+    font-size: 60px;
+    color: #009688;
+    display: block;
+
+  }
+
+  .features{
+    text-align:left;
+    padding: 5rem 2rem;
+    background-color:#f2f2f2;
+    font-family: sans-serif;
+    font-style: italic;
+
+  }
+
+  li {
+    text-align: left;
+    
+  }
+
+  .container h4 {
+    color:black;
+  }
+  .container h5 {
+    color:black;
+  }
